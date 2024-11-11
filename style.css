@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{ /* hero to two sections*/
+    background-image: url(/home_bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100vh;
+ 
+}
+
+.div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.div img{
+    width: 70px;
+
+}
+.div-imge{
+    display: flex;/* center according to row */
+    align-items: center;
+}
+.list-div{
+    display: flex;
+    align-items: center;
+}
+
+.list-div ul{
+    display: flex;
+    list-style: none;
+}
+.list-div ul li{
+   padding:0 1rem;
+   font-weight: 600;
+   letter-spacing: .8px;
+   text-transform: capitalize;
+   cursor: pointer;
+   transition: all .4s;
+}
+.list-div li a:hover {
+    color: black;
+    border-bottom: 2px solid yellow;
+}
+.list-div ul li a{
+    text-decoration: none;
+    color:#dcdcdcd4;
+
+}
+
+.text {
+    display: flex;/*center in page */
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;/* to arranged */
+    height: 90vh;/* space to move */
+    margin: 100px;
+    text-transform: capitalize;
+}
+.home h1 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin: 30px;
+}
+.home span {
+    font-size: 40px;
+    color: orangered;
+    margin: 15px;
+}
+.home p {
+    font-size: 20px;
+    color: rgba(243, 240, 240, 0.664);
+    margin: 15px;
+}
+button{
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all .3s;
+}
+button:hover{
+    background: #000;
+    color: orangered;
+}
+
+
+.paragraph {
+    background: #ffffff;
+    width: 100%;
+    height: 100vh;
+}
+.space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paragraph h1 {
+    font-size: 40px;
+    color: black;
+    text-transform: capitalize;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.paragraph .sen {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.396);
+    text-transform: capitalize;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.p {
+    font-size: 25px;
+}
+.btn{
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    transition: all .3s;
+
+}
+.btn:hover{
+    background: #000;
+    color: orangered;
+}
+.last-section{
+    background-color: rgb(2, 2, 32);
+    width: 100%;
+    height: 110vh;
+}
+.big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.big-img img {
+    width: 300px;
+}
+.big h1 {
+    font-size: 40px;
+    color: darkgoldenrod;
+    margin: 30px auto 20px auto;
+}
+.big .sen2 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    margin: 30px auto 20px auto;
+}
+.big-con p {
+    color: #ffffff;
+    font-size: 35px;
+    margin: 30px auto 20px auto;
+}
+.big-con h2 {
+    color: #ffffff;
+    font-size: 40px;
+    margin: 30px auto 20px auto;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.big-con sub {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 30px auto 20px auto;
+}
+
+.prices {
+    display: flex;
+    justify-content: center;
+}
+.prices p {
+    color: darkgoldenrod ;
+    font-size: 35px;
+    margin: 30px auto 20px auto;
+}
