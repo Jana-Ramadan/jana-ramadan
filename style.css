@@ -193,3 +193,20 @@ button:hover{
     font-size: 35px;
     margin: 30px auto 20px auto;
 }
+.slides {
+     display: flex;
+     background-color: gray;
+     /* min-width: 100%; */
+ 
+}
+ .slides .slide {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100%;
+}
+.div {
+    display: flex;
+    justify-content: space-between;
+}
+
